@@ -80,7 +80,9 @@ Wanted to create a super easy to use tool that can both help myself and others i
 
 ## 📩 Contact
 
-Built with ❤️ by daniel.stewarrt@gmail.com 
+Built with ❤️ by [Daniel Stewart](https://www.becomingdanielstewart.com/)
+
+[LinkedIn](https://www.linkedin.com/in/danthemans/) · [GitHub](https://github.com/dstew1) · [YouTube](https://www.youtube.com/@explorerpreneur)
 
 ---
 
