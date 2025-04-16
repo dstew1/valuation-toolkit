@@ -1,4 +1,5 @@
 import yfinance as yf
+import numpy as np
 
 def get_financials(ticker):
     stock = yf.Ticker(ticker)
@@ -47,5 +48,6 @@ def get_valuation_multiples(info):
         "EV/EBITDA": info.get("enterpriseToEbitda", "N/A"),
         "Price/Sales (TTM)": info.get("priceToSalesTrailing12Months", "N/A"),
         "EV/Revenue": info.get("enterpriseToRevenue", "N/A"),
-        "EPS (TTM)": info.get("trailingEps", "N/A")
+        "EPS (TTM)": info.get("trailingEps", "N/A"),
+        "D/E Ratio": float(info["debtToEquity"]) if info.get("debtToEquity") is not None else np.nan
     }
