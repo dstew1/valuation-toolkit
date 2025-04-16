@@ -22,7 +22,7 @@ A powerful, interactive Streamlit app for performing company valuations using fu
   - Fair value vs market price with clear guidance
 
 - **📊 Valuation Multiples (Comps)**
-  - P/E, PEG, EV/EBITDA, Price/Sales, and more
+  - P/E, D/E, EV/EBITDA, Price/Sales, and more
   - Custom metric selection for scoring
   - Z-score normalization with best-value ranking
   - Radar charts, bar charts, and color-coded tables
